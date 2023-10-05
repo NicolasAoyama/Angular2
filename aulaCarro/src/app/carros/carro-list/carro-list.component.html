@@ -1,0 +1,12 @@
+<p>carro-list works!</p>
+<table>
+  <tr>
+    <th>NOME:</th>
+    <th>ANO:</th>
+  </tr>
+
+  <tr *ngFor="let carro of ListaCarros">
+    <td>{{ carro.nome }}</td>
+    <td>{{ carro.ano }}</td>
+  </tr>
+</table>

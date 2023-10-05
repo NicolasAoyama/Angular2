@@ -1,0 +1,12 @@
+<p>pessoas-list works!</p>
+<table>
+  <tr>
+    <th>NOME:</th>
+    <th>IDADE:</th>
+  </tr>
+
+  <tr *ngFor="let pessoa of listaPessoas">
+    <td>{{ pessoa.nome }}</td>
+    <td>{{ pessoa.idade }}</td>
+  </tr>
+</table>

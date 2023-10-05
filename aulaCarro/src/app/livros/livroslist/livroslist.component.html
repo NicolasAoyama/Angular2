@@ -1,0 +1,13 @@
+<p>livroslist works!</p>
+<table>
+    <tr>
+        <th>AUTOR: </th>
+        <th>TITULO: </th>
+    </tr>
+    
+    <tr *ngFor="let livro of ListraLivros">
+        <td>{{livro.autor}}</td>
+        <td>{{livro.titulo}}</td>
+    </tr>
+
+</table>
